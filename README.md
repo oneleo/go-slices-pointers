@@ -42,3 +42,10 @@ $> cd ./go-slices-pointers
 
 $> go run ./main.go
 ```
+
+## 輸出
+```sh
+a at 0xc000004480       a = [3 2 3 4]
+b at 0xc0000044a0       b = [0xc0000421f0 0xc000042200 0xc000042210]
+c at 0xc0000044e0       c = [0xc0000421f0 0xc000042200 0xc000042210 0xc000042230]
+```
